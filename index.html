@@ -1,32 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Donutflip | Coming Soon</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DonutFlip | Coming Soon</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
   <style>
     body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
       display: flex;
       flex-direction: column;
-      align-items: center;
       justify-content: center;
+      align-items: center;
       height: 100vh;
-      margin: 0;
-      font-family: sans-serif;
-      background-color: #f5f5f5;
+      overflow: hidden;
+      font-family: 'Segoe UI', sans-serif;
+      color: white;
+      text-align: center;
     }
-    img {
-      max-width: 200px;
-      margin-bottom: 20px;
+
+    .logo {
+      max-width: 90vw;
+      max-height: 80vh;
+      object-fit: contain;
     }
-    h1 {
-      font-size: 2em;
-      color: #333;
+
+    .message {
+      margin-top: 20px;
+      font-size: 2rem;
+      letter-spacing: 1px;
+      opacity: 0.85;
     }
   </style>
 </head>
 <body>
-  <img src="logo.png" alt="Site Logo">
-  <h1>Coming Soon</h1>
+  <img src="logo.png" alt="DonutFlip Logo" class="logo" />
+  <div class="message">Coming Soon</div>
 </body>
 </html>
